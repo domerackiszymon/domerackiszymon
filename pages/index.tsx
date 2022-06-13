@@ -50,7 +50,11 @@ const Home = () => {
               />
               <div className={styles.navBar__discordHover}>Domer#3697</div>
             </a>
-            <a href="https://github.com/domerackiszymon" target="_blank">
+            <a
+              href="https://github.com/domerackiszymon"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon
                 icon={faGithub}
                 inverse
