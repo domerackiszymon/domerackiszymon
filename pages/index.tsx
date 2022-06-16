@@ -8,6 +8,7 @@ import {
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import BackgroundGrid from "./components/BackgroundGrid";
 
 const Home = () => {
   // const discordAnim = new anime({});
@@ -22,6 +23,7 @@ const Home = () => {
       </Head>
 
       <div className={styles.index}>
+        <BackgroundGrid />
         <nav className={styles.navBar}>
           <div className={styles.navBar__logo}></div>
           <div className={styles.navBar__linkWrap}>

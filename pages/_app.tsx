@@ -1,4 +1,5 @@
 import "../styles/globals.sass";
+import "./components/style/BackgroundGrid.sass";
 
 import type { AppProps } from "next/app";
 

@@ -1,0 +1,37 @@
+.backgroundGrid
+  width: 100%
+  height: 100vh
+  position: fixed
+  padding-left: 192px
+  top: 0
+  left: 0
+  display: flex
+  justify-content: space-between
+  align-items: space-between
+  flex-wrap: wrap
+  z-index: 1
+
+.backgroundGrid__square
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  align-items: space-between
+  min-width: 100px
+  min-height: 100px
+  max-width: 100px
+  max-height: 100px
+  flex-grow: 0
+
+.backgroundGrid__squareDot
+  background-color: #E3AB10
+  min-width: 7px
+  max-width: 7px
+  min-height: 7px
+  max-height: 7px
+  margin: 0 8px
+  opacity: 0
+  transition: 3s
+
+.backgroundGrid__square:hover .backgroundGrid__squareDot
+  transition: 0s
+  opacity: 1
