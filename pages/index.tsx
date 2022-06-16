@@ -12,7 +12,7 @@ import BackgroundGrid from "./components/BackgroundGrid";
 
 const Home = () => {
   // const discordAnim = new anime({});
-
+  // TODO add lazy loading
   return (
     <>
       <Head>

@@ -12,26 +12,13 @@
   z-index: 1
 
 .backgroundGrid__square
-  display: flex
-  flex-wrap: wrap
-  justify-content: space-between
-  align-items: space-between
-  min-width: 100px
-  min-height: 100px
-  max-width: 100px
-  max-height: 100px
-  flex-grow: 0
-
-.backgroundGrid__squareDot
-  background-color: #E3AB10
-  min-width: 7px
-  max-width: 7px
-  min-height: 7px
-  max-height: 7px
-  margin: 0 8px
-  opacity: 0
+  min-width: 50px
+  min-height: 50px
+  max-width: 50px
+  max-height: 50px
   transition: 3s
+  opacity: 0
 
-.backgroundGrid__square:hover .backgroundGrid__squareDot
+.backgroundGrid__square:hover
   transition: 0s
   opacity: 1
