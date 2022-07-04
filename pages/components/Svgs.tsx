@@ -165,4 +165,29 @@ const X8 = (props) => {
   );
 };
 
-export { X5, X6, X8 };
+const LoadingNeon = () => {
+  return (
+    <svg
+      width="1136"
+      height="428"
+      xmlns="http://www.w3.org/2000/svg"
+      className="loadingNeon"
+    >
+      <g id="Layer_1">
+        <rect
+          stroke-width="4"
+          rx="40"
+          id="svg_1"
+          height="420"
+          width="1128"
+          y="4"
+          x="4"
+          stroke="#E3AB10"
+          fill="rgba(0,0,0,0)"
+        />
+      </g>
+    </svg>
+  );
+};
+
+export { X5, X6, X8, LoadingNeon };

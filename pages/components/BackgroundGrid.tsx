@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import { X5, X6, X8 } from "./GridSvgs";
+import { X5, X6, X8 } from "./Svgs";
 
 const BackgroundGrid = () => {
   const [isGridGenerated, setGridGenerated] = useState(false);
@@ -9,7 +9,7 @@ const BackgroundGrid = () => {
   useEffect(() => {
     if (!isGridGenerated && typeof window !== "undefined") {
       const SIZE = 50;
-      const COLUMN_AMOUNT = Math.floor((window.innerWidth - 192) / SIZE);
+      const COLUMN_AMOUNT = Math.floor(window.innerWidth / SIZE);
       const ROW_AMOUNT = Math.floor(window.innerHeight / SIZE);
 
       const gridArray = [];
@@ -25,7 +25,6 @@ const BackgroundGrid = () => {
       setGrid(gridArray);
       setGridGenerated(true);
     }
-    console.log(grid);
   });
   return (
     <>
