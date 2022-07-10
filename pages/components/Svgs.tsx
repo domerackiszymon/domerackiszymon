@@ -175,7 +175,7 @@ const LoadingNeon = () => {
     >
       <g id="Layer_1">
         <rect
-          stroke-width="4"
+          strokeWidth="4"
           rx="40"
           id="svg_1"
           height="420"
